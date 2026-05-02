@@ -16,6 +16,18 @@ export default function ProductsSection() {
   return (
     <section id="products" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Product showcase image */}
+        <div className="mb-16 rounded-2xl overflow-hidden shadow-lg">
+          <img
+            src="/manus-storage/products-showcase_195bb2f0.png"
+            alt="X-Power Products Showcase"
+            className="w-full h-auto object-cover brightness-110 contrast-105"
+            style={{
+              filter: 'brightness(1.08) contrast(1.05) saturate(0.95)'
+            }}
+          />
+        </div>
+
         {/* Section header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-50 text-green-700 text-xs font-semibold mb-4">
@@ -23,7 +35,7 @@ export default function ProductsSection() {
             X-POWER Products
           </div>
           <h2
-            className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 xp-section-title"
+            className="text-4xl sm:text-5xl font-bold text-gray-900 mb-3 xp-section-title"
           >
             {t('nav.products')}
           </h2>
