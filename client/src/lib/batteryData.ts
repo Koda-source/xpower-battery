@@ -67,7 +67,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '180×160×310mm',
         application: ['app.twowheeler', 'app.threewheeler'],
-        image: '/manus-storage/5240-FE_792b3050.png',
+        image: '/manus-storage/5240-FE-new_6327868f.jpg',
       },
       {
         model: '5252-FB',
