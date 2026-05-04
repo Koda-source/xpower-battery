@@ -297,7 +297,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '374×203×163mm',
         application: ['app.twowheeler', 'app.threewheeler'],
-        image: '/manus-storage/7630-FB_caf6ed94.png',
+        image: '/manus-storage/7630-FB_optimized_eefcb1cf.png',
       },
       {
         model: '7240-FE',
@@ -333,7 +333,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '220×180×352mm',
         application: ['app.twowheeler', 'app.threewheeler'],
-        image: '/manus-storage/7645-FB_861b1506.png',
+        image: '/manus-storage/7645-FB_optimized_e6d38d9e.png',
       },
       {
         model: '7655-FB',
@@ -387,7 +387,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '222×182×347mm',
         application: ['app.twowheeler', 'app.threewheeler'],
-        image: '/manus-storage/7275-FE_32080250.png',
+        image: '/manus-storage/7275-FE_optimized_6524600c.png',
       },
       {
         model: '7691-FB',
@@ -405,7 +405,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '567×286×175mm',
         application: ['app.twowheeler', 'app.threewheeler'],
-        image: '/manus-storage/7691-FB_1e795ebe.png',
+        image: '/manus-storage/7691-FB_optimized_a1b2c3d4.png',
       },
       {
         model: '72113-FE',
@@ -441,7 +441,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '572×260×170mm',
         application: ['app.twowheeler', 'app.threewheeler'],
-        image: '/manus-storage/72141-FE_3ec0ac10.png',
+        image: '/manus-storage/72141-FE_optimized_96285605.png',
       },
     ],
   },
@@ -502,7 +502,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '532×313×194mm',
         application: ['app.threewheeler', 'app.fourwheeler', 'app.cleaning'],
-        image: '/manus-storage/64110-FB_c66e65a5.png',
+        image: '/manus-storage/64110-FB_optimized_dfe88ec6.png',
       },
       {
         model: '64150-FB',
@@ -520,7 +520,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '577×357×248mm',
         application: ['app.threewheeler', 'app.fourwheeler', 'app.cleaning'],
-        image: '/manus-storage/64150-FB_1c2b290f.png',
+        image: '/manus-storage/64150-FB_optimized_c1d66c9c.png',
       },
       {
         model: '64200-FB',
@@ -538,7 +538,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '665×393×268mm',
         application: ['app.threewheeler', 'app.fourwheeler', 'app.cleaning'],
-        image: '/manus-storage/64200-FB_eed25177.png',
+        image: '/manus-storage/64200-FB_optimized_4e4b3530.png',
       },
       {
         model: '64300-FB',
@@ -556,7 +556,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '800×513×248mm',
         application: ['app.threewheeler', 'app.fourwheeler', 'app.cleaning'],
-        image: '/manus-storage/64300-FB_3b4d1d09.png',
+        image: '/manus-storage/64300-FB_optimized_943376c8.png',
       },
     ],
   },
@@ -617,7 +617,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '532×313×220mm',
         application: ['app.threewheeler', 'app.fourwheeler', 'app.cleaning'],
-        image: '/manus-storage/76110-FB_9d3789ea.png',
+        image: '/manus-storage/76110-FB_optimized_2090b291.png',
       },
       {
         model: '76150-FB',
