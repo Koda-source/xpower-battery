@@ -146,7 +146,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '315×180×163mm',
         application: ['app.twowheeler', 'app.threewheeler'],
-        image: '/manus-storage/6422-FB_85c20884.png',
+        image: '/manus-storage/battery-64v-72v_9873bcba.png',
       },
       {
         model: '6430-FB',
@@ -279,7 +279,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '315×180×163mm',
         application: ['app.twowheeler', 'app.threewheeler'],
-        image: '/manus-storage/7622-FB_bb69fb8a.png',
+        image: '/manus-storage/battery-64v-72v_9873bcba.png',
       },
       {
         model: '7630-FB',
