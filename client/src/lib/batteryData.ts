@@ -85,7 +85,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '208×148×210mm',
         application: ['app.twowheeler', 'app.threewheeler'],
-        image: '/manus-storage/5252-FB_f0883775.png',
+        image: '/manus-storage/battery-52v-60v-72v_eed8ab59.png',
       },
       {
         model: '5260-FE',
@@ -103,7 +103,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '190×168×345mm',
         application: ['app.twowheeler', 'app.threewheeler'],
-        image: '/manus-storage/5260-FE_8ffd7150.png',
+        image: '/manus-storage/battery-52v-60v-72v_eed8ab59.png',
       },
       {
         model: '5275-FE',
@@ -121,7 +121,7 @@ export const batterySeries: BatterySeries[] = [
         storageSOC: '30%~70%',
         dimensions: '190×160×345mm',
         application: ['app.twowheeler', 'app.threewheeler'],
-        image: '/manus-storage/5275-FE_79d45095.png',
+        image: '/manus-storage/battery-52v-60v-72v_eed8ab59.png',
       },
     ],
   },
