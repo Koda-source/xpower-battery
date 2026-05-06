@@ -238,13 +238,6 @@ export const batterySeries: BatterySeries[] = [
         application: ['app.twowheeler', 'app.threewheeler'],
         image: '/manus-storage/6060-FE_138daa09.png',
       },
-    ],
-  },
-  {
-    id: '72v',
-    seriesKey: 'series.72v',
-    voltage: '72V',
-    products: [
       {
         model: '6075-FE',
         voltage: '60V',
@@ -263,6 +256,13 @@ export const batterySeries: BatterySeries[] = [
         application: ['app.twowheeler', 'app.threewheeler'],
         image: '/manus-storage/6075-FE_b97a005a.png',
       },
+    ],
+  },
+  {
+    id: '72v',
+    seriesKey: 'series.72v',
+    voltage: '72V',
+    products: [
       {
         model: '7622-FB',
         voltage: '76.8V',
