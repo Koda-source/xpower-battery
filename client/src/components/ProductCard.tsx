@@ -5,7 +5,8 @@
 import { useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { BatterySpec } from '@/lib/batteryData';
-import { X, Zap, Thermometer, Gauge, Ruler } from 'lucide-react';
+import { X, Zap, Thermometer, Gauge, Ruler, Check } from 'lucide-react';
+import ComparisonCheckbox from './ComparisonCheckbox';
 
 interface ProductCardProps {
   product: BatterySpec;
@@ -105,9 +106,12 @@ export default function ProductCard({ product }: ProductCardProps) {
             ))}
           </div>
 
-          {/* View details hint */}
-          <div className="mt-3 pt-3 border-t border-gray-100 text-xs text-green-600 font-medium text-center opacity-0 group-hover:opacity-100 transition-opacity">
-            {t('viewMore')} →
+          {/* Comparison checkbox and view details */}
+          <div className="mt-3 pt-3 border-t border-gray-100 flex items-center justify-between">
+            <ComparisonCheckbox model={product.model} />
+            <div className="text-xs text-green-600 font-medium opacity-0 group-hover:opacity-100 transition-opacity">
+              {t('viewMore')} →
+            </div>
           </div>
         </div>
       </div>

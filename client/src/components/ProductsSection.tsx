@@ -6,9 +6,13 @@ import { useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { batterySeries } from '@/lib/batteryData';
 import ProductCard from './ProductCard';
+import { useComparison } from '@/contexts/ComparisonContext';
+import ComparisonTable from './ComparisonTable';
+import { Button } from '@/components/ui/button';
 
 export default function ProductsSection() {
   const { t } = useLanguage();
+  const { selectedModels } = useComparison();
   const [activeSeries, setActiveSeries] = useState(batterySeries[0].id);
 
   const currentSeries = batterySeries.find(s => s.id === activeSeries)!;
@@ -62,14 +66,29 @@ export default function ProductsSection() {
           ))}
         </div>
 
-        {/* Series title */}
-        <div className="mb-8">
-          <h3
-            className="text-xl font-bold text-gray-800 xp-section-title"
-          >
-            {t(currentSeries.seriesKey)}
-          </h3>
-          <div className="mt-1 h-0.5 w-16 bg-green-500 rounded" />
+        {/* Series title and comparison button */}
+        <div className="mb-8 flex items-center justify-between">
+          <div>
+            <h3
+              className="text-xl font-bold text-gray-800 xp-section-title"
+            >
+              {t(currentSeries.seriesKey)}
+            </h3>
+            <div className="mt-1 h-0.5 w-16 bg-green-500 rounded" />
+          </div>
+          {selectedModels.length > 0 && (
+            <div className="flex items-center gap-2">
+              <span className="text-sm font-medium text-gray-600">
+                {t('comparison.selected')}: {selectedModels.length}
+              </span>
+              <Button
+                className="xp-green-gradient text-white"
+                size="sm"
+              >
+                {t('comparison.compare')}
+              </Button>
+            </div>
+          )}
         </div>
 
         {/* Products grid */}
@@ -112,6 +131,9 @@ export default function ProductsSection() {
           </div>
         </div>
       </div>
+
+      {/* Comparison Table Modal */}
+      <ComparisonTable />
 
       <style>{`
         @keyframes fadeInUp {
