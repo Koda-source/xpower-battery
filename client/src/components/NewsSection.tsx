@@ -50,7 +50,7 @@ const newsItems: NewsItem[] = [
   }
 ];
 
-export default function NewsSection() {
+export default function NewsSectio.jpg.png'
   const { lang, t } = useLanguage();
 
   return (
