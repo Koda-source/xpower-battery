@@ -22,6 +22,7 @@ export default function Navbar() {
   const navLinks = [
     { key: 'nav.products', href: '#products' },
     { key: 'nav.advantages', href: '#advantages' },
+    { key: 'nav.news', href: '#news' },
     { key: 'nav.contact', href: '#contact' },
   ];
 
