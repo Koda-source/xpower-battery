@@ -118,6 +118,13 @@ export const translations: Record<Language, Record<string, string>> = {
   en: {
     'nav.products': 'Products',
     'nav.about': 'About Us',
+
+    // 新闻
+    'nav.news': '新闻动态',
+    'news.title': '新闻动态',
+    'news.subtitle': '了解 X-Power 最新展会活动与产品发布',
+    'news.readMore': '阅读更多',
+    'news.exhibition': '展会新闻',
     'nav.contact': 'Contact',
     'nav.advantages': 'Advantages',
     'hero.title': 'Professional EV Lithium Batteries',
@@ -212,6 +219,13 @@ export const translations: Record<Language, Record<string, string>> = {
   ar: {
     'nav.products': 'المنتجات',
     'nav.about': 'من نحن',
+
+    // News
+    'nav.news': 'News',
+    'news.title': 'Latest News',
+    'news.subtitle': 'Stay informed about exhibitions, product launches, and company developments from X-Power',
+    'news.readMore': 'Read More',
+    'news.exhibition': 'Exhibition News',
     'nav.contact': 'اتصل بنا',
     'nav.advantages': 'المزايا',
     'hero.title': 'بطاريات ليثيوم احترافية للمركبات الكهربائية',
@@ -306,6 +320,13 @@ export const translations: Record<Language, Record<string, string>> = {
   de: {
     'nav.products': 'Produkte',
     'nav.about': 'Über uns',
+
+    // أخبار
+    'nav.news': 'الأخبار',
+    'news.title': 'آخر الأخبار',
+    'news.subtitle': 'ابق على اطلاع بالمعارض وإطلاقات المنتجات وتطورات الشركة من X-Power',
+    'news.readMore': 'اقرأ المزيد',
+    'news.exhibition': 'أخبار المعارض',
     'nav.contact': 'Kontakt',
     'nav.advantages': 'Vorteile',
     'hero.title': 'Professionelle E-Fahrzeug Lithiumbatterien',
@@ -400,6 +421,13 @@ export const translations: Record<Language, Record<string, string>> = {
   es: {
     'nav.products': 'Productos',
     'nav.about': 'Nosotros',
+
+    // Nachrichten
+    'nav.news': 'Nachrichten',
+    'news.title': 'Neueste Nachrichten',
+    'news.subtitle': 'Bleiben Sie informiert über Ausstellungen, Produkteinführungen und Unternehmensentwicklungen von X-Power',
+    'news.readMore': 'Mehr lesen',
+    'news.exhibition': 'Messennachrichten',
     'nav.contact': 'Contacto',
     'nav.advantages': 'Ventajas',
     'hero.title': 'Baterías de Litio Profesionales para VE',
@@ -493,6 +521,13 @@ export const translations: Record<Language, Record<string, string>> = {
   },
 };
 
+
+    // Noticias
+    'nav.news': 'Noticias',
+    'news.title': 'Últimas Noticias',
+    'news.subtitle': 'Manténgase informado sobre exposiciones, lanzamientos de productos y desarrollos de la empresa de X-Power',
+    'news.readMore': 'Leer Más',
+    'news.exhibition': 'Noticias de Exposición',
 export function t(lang: Language, key: string): string {
   return translations[lang]?.[key] || translations['en']?.[key] || key;
 }
